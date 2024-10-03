@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 >STUDENT ADMISSION FORM</h1>
+    <hr>
+    <form >
+    <label> Student Name</label>
+    <input type="text" required minlength="4">
+    <br>
+    <br>
+    <label> Student Email</label>
+    <input type="email">
+    <br>
+    <br>
+    <label>Date Of Birth</label>
+    <input type="date">
+    <br>
+    <br>
+    <label >Gender</label>
+    <input type="radio" name="gender">Male
+    <input type="radio" name="gender">Female
+    <br>
+    <br>
+    <label >Select Course</label>
+
+    <select name="" id="">
+        <option value="">MERN STACK</option>
+        <option value="">JAVA</option>
+        <option value="">C++</option>
+        <option value="">MEAN STACK</option>
+        <option value="">web tech</option>
+        <option value="">cloid computig</option>
+        <option value="">DATA ANALYTICS</option>
+        <option value="">DJANGO</option>
+        <option value="">PYTHON</option>
+    </select>
+    <br>
+    <br>
+    <label for="">SELECT COLLEGE</label>
+    <input type=" text" list="college">
+    <datalist id="college">
+        <option > LBS</option>
+        <option> MGIMT</option>
+        <option> RRIMT</option>
+        <option>BBDNITM</option>
+    </datalist>
+    <br>
+    <br>
+<label >Address</label>
+<textarea rows="5" cols="20"></textarea>
+<br><br>
+<label for="file-upload">Upload Image</label>
+<input hidden id="file-upload" type="file">
+<br>
+<br>
+
+<input type="checkbox">
+<label for="">I Accept Terms And Conditions</label>
+<br>
+<br>
+<details>
+    <summary>View Terms And Conditions</summary>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed perferendis debitis, eveniet animi libero veniam obcaecati molestias modi architecto placeat culpa similique harum. Cumque, distinctio. Numquam perferendis officia id quae.</p>
+</details>
+    <button type="submit">SUBMIT</button>
+    </form>
+</body>
+</html>
