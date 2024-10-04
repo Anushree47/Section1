@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIE TICKET BOOKING FORM</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: blue;font: size 50px;" ><b> <u> MOVIE TICKET BOOKING FORM </b> </h1></u> 
+    <form >
+    <label style="color: rgb(255, 0, 217);font: size 50px;"> FULL NAME</label>
+    <input type="text"   name="name" required minlength="4">
+    <br>
+    <br>
+    <label style="color: rgb(0, 255, 34);font: size 50px;"> Email</label>
+    <input  type="email" id="email" name="email" required>
+    <br>
+    <br>
+    <label style="color: rgb(255, 0, 0);font: size 50px;" >Select Movie</label>
+    <select id="" name="">
+        <option value="">--Select a Movie--</option>
+        <option value="">Movie 1</option>
+        <option value="">Movie 2</option>
+        <option value="">Movie 3</option>
+    </select>
+    <br>
+    <br>
+    <label style="color: rgba(0, 149, 255, 0.275);font: size 50px;"> Select Date</label>
+    <input type="date">
+    <br>
+    <br>
+    <label style="color: rgb(0, 255, 195);font: size 50px;">Gender</label>
+    <input type="radio" name="gender">Male
+    <input type="radio" name="gender">Female
+    <br>
+    <br>
+    <label style="color: rgb(191, 255, 0);font: size 50px;">Select Time</label>
+    <select id="" name="" >
+        <option value="">--Select a Time--</option>
+        <option value="">10:00 AM</option>
+        <option value="">1:00 PM</option>
+        <option value="">4:00 PM</option>
+        <option value="">7:00 PM</option>
+    </select>
+    <br>
+    <br>
+    <label style="color: rgb(0, 187, 255);font: size 50px;" >Number of Seats</label>
+    <input type="number" id="seats" name="seats" min="1" max="10" required>
+    <br>
+    <br>
+    <label style="color: rgb(251, 0, 255);font: size 50px;" >Payment Method</label>
+    <input type="radio"  name="payment" >CREDIT CARD
+    <input type="radio" name="payment" >DEBIT CARD
+    <br>
+    <br>
+    </form>
+    
+</body>
+</html>
